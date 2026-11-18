@@ -40,7 +40,7 @@ Use Node.js 22.23.4 (the October 2026 security release), pinned in `.nvmrc`.
 ```
 nvm install
 nvm use
-npm install esbuild react react-dom
+npm ci --ignore-scripts
 node build.mjs
 npx serve dist   # or any static server
 ```
